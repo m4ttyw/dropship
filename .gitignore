@@ -10,7 +10,7 @@ _test
 packaging/output
 packaging/root/usr/local
 test/
-
+bin/
 # Architecture specific extensions/prefixes
 *.[568vq]
 [568vq].out
