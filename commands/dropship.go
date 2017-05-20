@@ -30,7 +30,7 @@ artifacts from a file repository in a distributed fashion.
 var CfgFile string
 
 func init() {
-	DropshipCmd.PersistentFlags().StringVar(&CfgFile, "config", "/etc/dropship.d/dropship.hcl", "config file (default is path/config.yaml|json|toml)")
+	DropshipCmd.PersistentFlags().StringVar(&CfgFile, "config", "./config.cfg", "config file (default is ./config.conf|json|toml)")
 }
 
 func Execute() {
